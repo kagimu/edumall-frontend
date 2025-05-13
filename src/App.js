@@ -120,14 +120,15 @@ export default function App() {
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/" element={<MainLandingPage />} />
-          <Route path="/pages/AboutUs.js" element={<AboutUsPage />} />
-          <Route path="/pages/ContactUs.js" element={<ContactUsPage />} />
-          <Route path="/pages/BlogIndex.js" element={<BlogIndexPage />} />
-          <Route path="/pages/TermsOfService.js" element={<TermsOfServicePage />} />
-          <Route path="/pages/PrivacyPolicy.js" element={<PrivacyPolicyPage />} />
-          <Route path="/pages/Login.js" element={<LoginPage />} />
-          <Route path="/pages/Signup.js" element={<SignupPage />} />
-          <Route path="/pages/Pricing.js" element={<PricingPage />} />
+          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
+          <Route path="/blog" element={<BlogIndexPage />} />
+          <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignupPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/thank-you" element={<ThankYouPage />} />
 
         </Routes>
       </Router>
