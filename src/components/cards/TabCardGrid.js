@@ -61,52 +61,52 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Checkout the Menu",
   tabs = {
-    Starters: [
+    laboratory: [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
-        price: "$5.99",
+          "https://st4.depositphotos.com/1594308/39213/i/450/depositphotos_392130136-stock-photo-close-two-lab-white-rats.jpg",
+        title: "Lab Albino rat",
+        content: "Lab specimen, White in color",
+        price: "UGX 20.000",
         rating: "5.0",
         reviews: "87",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
-        price: "$2.99",
+          "https://media.istockphoto.com/id/172454151/photo/cockroach.jpg?s=612x612&w=0&k=20&c=YBApADopw6nbNGmzUGfV5NzJeBwGFHQvJoVLpj6MBVo=",
+        title: "cockroach",
+        content: "lab specimen",
+        price: "UGX 20.000",
         rating: "4.8",
         reviews: "32",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Nelli",
-        content: "Hamburger & Fries",
-        price: "$7.99",
+          "https://t3.ftcdn.net/jpg/05/59/60/18/360_F_559601866_cCFNfCgkYI1pxNZBQaS4kPbLovLWR7Bp.jpg",
+        title: "Acetone",
+        content: "100 ml",
+        price: "UGX 117.000",
         rating: "4.9",
         reviews: "89",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Jalapeno Poppers",
-        content: "Crispy Soyabeans",
-        price: "$8.99",
+          "https://t4.ftcdn.net/jpg/06/01/78/87/360_F_601788791_UQylt6coDLYz6lRe3u0NUTR3wDzgztGP.jpg",
+        title: "All acids",
+        content: "100mls",
+        price: "UGX 99.000",
         rating: "4.6",
         reviews: "12",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Cajun Chicken",
-        content: "Roasted Chicken & Egg",
+          "https://labequipsupply.co.za/wp-content/uploads/2021/02/Ethanol-99%EF%BF%BD-GR-grade-1.jpg",
+        title: "Alcohols",
+        content: "200mls",
         price: "$7.99",
         rating: "4.2",
         reviews: "19",
@@ -114,9 +114,9 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
+          "https://loxmet.com/wp-content/uploads/2023/01/HQ_IMG2_401143-400x400.webp",
+        title: "Chemical Storage Cabinet",
+        content: "For storing chemicals",
         price: "$2.99",
         rating: "5.0",
         reviews: "61",
@@ -124,28 +124,28 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
-        price: "$3.99",
+          "https://media.istockphoto.com/id/1465408102/photo/chloroform-in-bottle-chemical-in-the-laboratory-and-industry.jpg?s=612x612&w=0&k=20&c=J52zy1TnHzZKfFn7pPp_3d1zxWiC_HgSRaG-TBGJ6Cc=",
+        title: "Chloroform",
+        content: "200mls",
+        price: "$31.99",
         rating: "4.2",
         reviews: "95",
         url: "#"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Carnet Nachos",
-        content: "Chilli Crispy Nachos",
-        price: "$3.99",
+          "https://media.istockphoto.com/id/1465406492/photo/ethanol-in-bottle-chemical-in-the-laboratory-and-industry.jpg?s=612x612&w=0&k=20&c=nhOVUlhs7HK7jX6TgRzjT3ARKvS1-q1_47z_vqv6JzU=",
+        title: "Ethanol",
+        content: "200mls",
+        price: "$31.99",
         rating: "3.9",
         reviews: "26",
         url: "#"
       }
     ],
-    Main: getRandomCards(),
-    Soup: getRandomCards(),
-    Desserts: getRandomCards()
+    sports: getRandomCards(),
+    library: getRandomCards(),
+    stationary: getRandomCards()
   }
 }) => {
   /*
