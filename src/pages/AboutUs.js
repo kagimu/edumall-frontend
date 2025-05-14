@@ -43,17 +43,27 @@ const AboutUs = () => {
         cards={[
           {
             imageSrc: SupportIconImage,
-            title: "24/7 Support",
+            title: "Transparency",
             description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
           },
           {
             imageSrc: ShieldIconImage,
-            title: "Strong Teams",
+            title: "Integrity",
             description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
           },
           {
             imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
+            title: "Customer-Centricity",
+            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+          },
+           {
+            imageSrc: ShieldIconImage,
+            title: "Efficiency",
+            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+          },
+          {
+            imageSrc: CustomerLoveIconImage,
+            title: "Collaboration",
             description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
           },
         ]}
